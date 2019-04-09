@@ -9,9 +9,9 @@ public class NumFinderMain {
         // nf.find(new int[] {4, 25, 7, 9});
 
         // this crashes
-        nf.find(new int[] {4, 3, 2, 1});
+        nf.find(new int[] {3, 9, 0, 3, -5});
 
-        System.out.println(nf.getLargest());
-        System.out.println(nf.getSmallest());
+        System.out.println("The largest number = " + nf.getLargest());
+        System.out.println("The smallest number = " + nf.getSmallest());
     }
 }
